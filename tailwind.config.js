@@ -7,13 +7,14 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'nunito': ['Nunito', 'sans-serif'],
-        'nunito-sans': ['"Nunito Sans"', 'sans-serif'],
+        // 'nunito': ['Nunito', 'sans-serif'],
+        // 'nunito-sans': ['"Nunito Sans"', 'sans-serif'],
         'montserrat': ['Montserrat', 'sans-serif'],
-        'poppins': ['Poppins', 'sans-serif']
+        // 'poppins': ['Poppins', 'sans-serif']
       }
     },
     colors: {
+      'green': '#329d9b',
       'white': '#f1f5e0',
       'dark': '#383838',
       'light-grey': '#F2F2F4',
