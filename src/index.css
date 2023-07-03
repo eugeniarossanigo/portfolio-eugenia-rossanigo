@@ -11,10 +11,10 @@
   }
 }
 
-/* .theme-dark {
+.theme-dark {
   --bg-outside: #000;
   --bg-inside: #191f1e;
-} */
+}
 
 .theme-light {
   --bg-outside: #f0f3f5;
