@@ -10,15 +10,18 @@ export default {
         // 'nunito': ['Nunito', 'sans-serif'],
         // 'nunito-sans': ['"Nunito Sans"', 'sans-serif'],
         'montserrat': ['Montserrat', 'sans-serif'],
-        // 'poppins': ['Poppins', 'sans-serif']
+        'poppins': ['Poppins', 'sans-serif']
       }
     },
     colors: {
       'green': '#329d9b',
-      'white': '#f1f5e0',
+      'light': '#f1f5e0',
+      'white': '#fff',
       'dark': '#383838',
       'light-grey': '#F2F2F4',
-      'dark-grey': '#777777',
+      'dark-grey': '#767676',
+      'strong-grey': '#515252',
+      'strong-dark': '#080F0F',
     }
   },
   plugins: [],
