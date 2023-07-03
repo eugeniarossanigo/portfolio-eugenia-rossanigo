@@ -14,10 +14,13 @@ export default {
       }
     },
     colors: {
-      'green': '#329d9b',
-      'light': '#f1f5e0',
-      'white': '#fff',
-      'dark': '#383838',
+      baseColor: 'var(--color-text-base)',
+      green: 'var(--color-text-color)',
+      outsideBg: 'var(--bg-outside)',
+      insideBg: 'var(--bg-inside)',
+      light: '#f1f5e0',
+      white: '#fff',
+      dark: '#383838',
       'light-grey': '#F2F2F4',
       'dark-grey': '#767676',
       'strong-grey': '#515252',
