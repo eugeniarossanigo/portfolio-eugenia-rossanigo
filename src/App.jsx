@@ -4,7 +4,8 @@ import ProjectContainer from './components/ProjectContainer';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Welcome from './components/Welcome';
-import WorkContainer from './components/WorkContainer';
+import JobsContainer from './components/JobsContainer';
+import AboutContainer from './components/AboutContainer';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
             <>
               <Welcome />
               <ProjectContainer />
-              <WorkContainer />
+              <JobsContainer />
+              <AboutContainer />
               {/* <main className='flex flex-row'>
                 <Container />
                 <Container />
