@@ -15,4 +15,12 @@ export const jobs = [
     "company": "Bright Sector",
     "description": "• Desarrollo de programas de crawleo en Python. • Responsable de la calidad de datos obtenidos. • Personas a cargo en equipo de trabajo."
   },
+  {
+    "id": 3,
+    "title": "Empleada en oficina técnica",
+    "datestart": "agosto 2009",
+    "datefinish": "febrero 2013",
+    "company": "DEGÉ Amoblamientos",
+    "description": "• Diseño de mobiliario en autocad 2D y 3D. • Confección de planos de perforado para armado. • Planillas de producción y presupuesto."
+  },
 ]
