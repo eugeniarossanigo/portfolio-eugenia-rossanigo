@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { useState } from 'react'
 import './App.css'
 import ProjectContainer from './components/ProjectContainer';
 import Footer from './components/Footer';
@@ -8,28 +9,33 @@ import JobsContainer from './components/JobsContainer';
 import AboutContainer from './components/AboutContainer';
 
 function App() {
+  const [mode, setMode] = useState('dark')
+
+  const handleMode = () => {
+    console.log(mode)
+    setMode(mode === 'dark' ? 'light' : 'dark')
+  }
+
   return (
-    <div id='main-layout' className='font-montserrat'>
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={
-            <>
-              <Welcome />
-              <ProjectContainer />
-              <JobsContainer />
-              <AboutContainer />
-              {/* <main className='flex flex-row'>
-                <Container />
-                <Container />
-              </main> */}
-            </>
-          } />
-          {/* <Route path='/projects' element={<Projects />} /> */}
-        </Routes>
-        <Footer />
-      </BrowserRouter>
-    </div>
+      <div className={`w-full bg-insideBg font-montserrat flex justify-center text-baseColor ${mode === 'dark' ? 'theme-dark' : 'theme-light'}`}>
+        <div id='main-layout' className='max-w-7xl flex flex-col justify-center items-center py-2 px-8'>
+          <BrowserRouter>
+            <Navbar handleMode={handleMode} mode={mode}/>
+            <Routes>
+              <Route path="/" element={
+                <>
+                  <Welcome />
+                  <ProjectContainer />
+                  <JobsContainer />
+                  <AboutContainer />
+                </>
+              } />
+              {/* <Route path='/projects' element={<Projects />} /> */}
+            </Routes>
+            <Footer />
+          </BrowserRouter>
+        </div>
+      </div>
   )
 }
 
