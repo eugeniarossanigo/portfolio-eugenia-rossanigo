@@ -10,7 +10,7 @@ export default function CardProject({ item }) {
       <p className='text-sm'>{item.description}</p>
       <nav className='flex items-center gap-2'>
         <a href='http://' target='_blank' rel='noopener noreferrer'>
-          <img className='w-[20px]' src='/github.png' alt='github' />
+          <img className='w-[20px]' src='/github-green.png' alt='github' />
         </a>
         <a href='http://' target='_blank' rel='noopener noreferrer'>
           <img className='w-[24px]' src='/link.png' alt='link' />
