@@ -21,9 +21,9 @@ export default {
       light: '#f1f5e0',
       white: '#fff',
       dark: '#383838',
-      lightGrey: '#a6b1b1',
-      darkGrey: '#767676',
-      strongGrey: '#515252',
+      lightGray: '#a6b1b1',
+      darkGray: '#767676',
+      strongGray: '#515252',
       strongDark: '#080F0F',
     }
   },

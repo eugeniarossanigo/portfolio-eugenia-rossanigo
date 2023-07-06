@@ -17,8 +17,8 @@ export default function Navbar({ handleMode, mode }) {
         <nav className='flex text-xs sm:text-sm gap-3 sm:gap-5'>
           { linkItems.map((_, index) => <MenuLink key={index} item={_} />) }
         </nav>
-        <button onClick={handleMode} className='flex items-center w-[44px] h-[22px] shadow shadow-darkGrey rounded-xl cursor-pointer'>
-          <div className={`w-[16px] h-[16px] shadow shadow-darkGrey rounded-full mx-1 transform ${mode !== 'dark' && 'translate-x-5'}`}></div>
+        <button onClick={handleMode} className='flex items-center w-[44px] h-[22px] shadow shadow-darkGray rounded-xl cursor-pointer'>
+          <div className={`w-[16px] h-[16px] shadow shadow-darkGray rounded-full mx-1 transform ${mode !== 'dark' && 'translate-x-5'}`}></div>
         </button>
       </section>
     </header>
