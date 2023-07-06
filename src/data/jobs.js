@@ -1,14 +1,19 @@
 export const jobs = [
   {
-      "id": 1,
-      "title": "Mentora Junior",
-      "datestart": "enero 2023",
-      "datefinish": "la actualidad",
-      "company": "Argentina Programa",
-      "description": "• Planificación de actividades del curso y dictado de workshops. • Revisión y calificación de las tareas entregables. • Seguimiento a los alumnos velando por su progreso técnico. • Incentivar un ambiente de aprendizaje colaborativo y de respeto."
+    "title": "Front-End Developer",
+    "datestart": "enero 2023",
+    "datefinish": "la actualidad",
+    "company": "Freelancer",
+    "description": "• Desarrollo de páginas web. • Actualizaciones de funcionalidades. • Principales tecnologías utilizadas: Javascript, React.js y React Native."
   },
   {
-    "id": 2,
+    "title": "Mentora Junior",
+    "datestart": "enero 2023",
+    "datefinish": "la actualidad",
+    "company": "Argentina Programa",
+    "description": "• Planificación de actividades del curso y dictado de workshops. • Revisión y calificación de las tareas entregables. • Seguimiento a los alumnos velando por su progreso técnico. • Incentivar un ambiente de aprendizaje colaborativo y de respeto."
+  },
+  {
     "title": "Web Scraper Python",
     "datestart": "junio 2014",
     "datefinish": "junio 2022",
@@ -16,7 +21,6 @@ export const jobs = [
     "description": "• Desarrollo de programas de crawleo en Python. • Responsable de la calidad de datos obtenidos. • Personas a cargo en equipo de trabajo."
   },
   {
-    "id": 3,
     "title": "Empleada en oficina técnica",
     "datestart": "agosto 2009",
     "datefinish": "febrero 2013",
