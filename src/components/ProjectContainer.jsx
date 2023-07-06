@@ -6,8 +6,8 @@ import Container from './Container';
 export default function ProjectContainer() {
   return (
     <Container link='projects' title='Proyectos' size='5'>
-      {data.map((item) =>
-        <CardContainer key={item.id}>
+      {data.map((item, index) =>
+        <CardContainer key={index}>
           <CardProject item={item}/>
         </CardContainer>)}
     </Container>

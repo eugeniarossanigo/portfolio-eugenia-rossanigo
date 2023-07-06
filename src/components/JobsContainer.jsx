@@ -6,8 +6,8 @@ import Container from './Container';
 export default function JobsContainer() {
   return (
     <Container link='experience' title='Experiencia' size='5'> 
-      {data.map((item) =>
-        <CardContainer key={item.id}>
+      {data.map((item, index) =>
+        <CardContainer key={index}>
           <CardJob item={item}/>
         </CardContainer>
       )}
