@@ -9,10 +9,10 @@ export default function Welcome() {
         <h1 className='text-[2.5rem] text-center sm:text-left leading-none sm:text-5xl font-extrabold text-strongGrey'><span className='text-green'>Eugenia </span>Rossanigo</h1>
         <h2 className='text-2xl sm:text-3xl font-semibold'>Full Stack Developer</h2>
         <nav className='flex gap-2'>
-          <a href='http://' target='_blank' rel='noopener noreferrer'>
+          <a href='https://www.linkedin.com/in/eugenia-rossanigo/' target='_blank' rel='noopener noreferrer'>
             <img className='w-[32px]' src='/linkedin-green.png' alt='linkedin' />
           </a>
-          <a href='http://' target='_blank' rel='noopener noreferrer'>
+          <a href='https://github.com/eugeniarossanigo' target='_blank' rel='noopener noreferrer'>
             <img className='w-[32px]' src='/github-green.png' alt='github' />
           </a>
         </nav>
