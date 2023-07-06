@@ -5,7 +5,7 @@ export default function CardProject({ item }) {
     <>
       <header>
         <p className='text-[10px]'>{item.date}</p>
-        <h3 className='text-green font-extrabold'>{item.title}</h3>
+        <h3 className='text-base text-green font-extrabold'>{item.title}</h3>
       </header>
       <p className='text-sm'>{item.description}</p>
       <nav className='flex items-center gap-2'>
