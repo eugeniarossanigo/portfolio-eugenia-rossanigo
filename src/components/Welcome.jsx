@@ -1,4 +1,6 @@
 import Canvas from './Canvas';
+import { SiGithub } from 'react-icons/si'
+import { BiLogoLinkedin } from 'react-icons/bi'
 
 export default function Welcome() {
 
@@ -10,10 +12,10 @@ export default function Welcome() {
         <h2 className='text-2xl sm:text-3xl font-semibold'>Full Stack Developer</h2>
         <nav className='flex gap-2'>
           <a href='https://www.linkedin.com/in/eugenia-rossanigo/' target='_blank' rel='noopener noreferrer'>
-            <img className='w-[32px] hover:scale-105 hover:opacity-80' src='/linkedin-green.png' alt='linkedin' />
+            <BiLogoLinkedin className='bg-green text-insideBg w-[34px] h-[34px] rounded-full p-1 hover:scale-110 hover:bg-[#0a66c2]' />
           </a>
           <a href='https://github.com/eugeniarossanigo' target='_blank' rel='noopener noreferrer'>
-            <img className='w-[32px] hover:scale-105 hover:opacity-80' src='/github-green.png' alt='github' />
+            <SiGithub className='text-green w-[34px] h-[34px] hover:scale-110 hover:text-colorChanged' />
           </a>
         </nav>
       </div>
