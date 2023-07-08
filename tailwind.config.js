@@ -14,6 +14,9 @@ export default {
       }
     },
     colors: {
+      black: '#000',
+      white: '#fff',
+      colorChanged: 'var(--color-changed)',
       baseColor: 'var(--color-text-base)',
       green: 'var(--color-text-color)',
       outsideBg: 'var(--bg-outside)',
@@ -24,9 +27,18 @@ export default {
       lightGray: '#a6b1b1',
       darkGray: '#767676',
       strongGray: '#515252',
-      strongDark: '#080F0F',
+      strongDark: '#080f0f ',
+      // tailwindColor: '#38bdf8',
+      // reduxColor: '#764abc',
+      // gitColor: '#f54d27',
+      // tailwindColor: 'var(--tailwind-color)',
+      // reduxColor: 'var(--redux-color)',
+      // gitColor: 'var(--git-color)',
     }
   },
+  // variants: {
+  //   fill: ['hover', 'focus'], // this line does the trick
+  // },
   plugins: [],
 }
 
