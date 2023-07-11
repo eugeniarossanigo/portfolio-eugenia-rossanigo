@@ -1,4 +1,4 @@
-const colors = ["[#2A4858]", "[#205072]", "green", "[#56C596]", "[#7BE495]", "[#CFF4D2]"]
+const colors = ['[#2A4858]', '[#205072]', 'green', '[#56C596]', '[#7BE495]', '[#CFF4D2]']
 
 export default function Canvas({ title }) {
   
