@@ -46,7 +46,7 @@ export default function AboutContainer() {
         <h3 className='text-base text-green font-extrabold py-3'>Tecnologías</h3>
         <ul className='flex flex-wrap gap-3'>
           { techs.map((_, index) => (
-            <li key={index} onMouseOver={e => handleMouseOver(_, e)} onMouseOut={e => handleMouseOut(_, e)} className='hover:scale-105 flex items-center text-xs gap-2 border-strongGray border rounded-md p-[6px]'>
+            <li key={index} onMouseOver={e => handleMouseOver(_, e)} onMouseOut={e => handleMouseOut(_, e)} className='hover:scale-105 flex items-center text-xs gap-2 border-strongGray border rounded-md p-[6px] cursor-pointer'>
               { _.src ?
                 <img src={_.hover} className='w-[1rem] opacity-80' alt="icon" />
                 :
