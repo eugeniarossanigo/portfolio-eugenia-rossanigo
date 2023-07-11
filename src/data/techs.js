@@ -1,4 +1,4 @@
-import { SiTailwindcss, SiRedux, SiGit, SiExpress, SiPostman, SiMongodb, SiHtml5, SiCss3, SiJavascript } from 'react-icons/si'
+import { SiTailwindcss, SiRedux, SiBootstrap, SiGit, SiExpress, SiPostman, SiMongodb, SiHtml5, SiCss3, SiJavascript } from 'react-icons/si'
 import { DiScrum } from 'react-icons/di'
 import { FaReact } from 'react-icons/fa'
 
@@ -37,6 +37,11 @@ export const techs = [
     icon: SiTailwindcss,
     color: '38bdf8',
     name: 'Tailwind CSS'
+  },
+  {
+    icon: SiBootstrap,
+    color: '8112fa',
+    name: 'Bootstrap'
   },
   {
     icon: FaReact,
