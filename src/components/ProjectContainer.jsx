@@ -1,6 +1,6 @@
 import { projects as data } from '../data/projects'
-import CardContainer from './CardContainer'
-import CardProject from './CardProject'
+import CardContainer from './Cards/CardContainer'
+import CardProject from './Cards/CardProject'
 import Container from './Container';
 
 export default function ProjectContainer() {

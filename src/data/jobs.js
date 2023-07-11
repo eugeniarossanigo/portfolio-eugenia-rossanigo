@@ -1,6 +1,6 @@
 export const jobs = [
   {
-    "title": "Front-End Developer",
+    "title": "Front-End Developer Jr",
     "datestart": "enero 2023",
     "datefinish": "la actualidad",
     "company": "Freelancer",

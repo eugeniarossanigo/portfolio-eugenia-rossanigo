@@ -1,6 +1,6 @@
 import { jobs as data } from '../data/jobs'
-import CardContainer from './CardContainer'
-import CardJob from './CardJob'
+import CardContainer from './Cards/CardContainer'
+import CardJob from './Cards/CardJob'
 import Container from './Container';
 
 export default function JobsContainer() {
