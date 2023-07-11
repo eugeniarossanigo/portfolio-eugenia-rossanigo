@@ -4,6 +4,23 @@ import { contact as data } from '../data/contact'
 import { techs } from '../data/techs'
 
 export default function AboutContainer() {
+  const handleMouseOver = (item, e) => {
+    const currentTarget = e.currentTarget.children[0]
+    if (currentTarget.src) {
+      currentTarget.src = item.src
+    } else {
+      currentTarget.style.color = `#${item.color}`
+    }
+  }
+
+  const handleMouseOut = (item, e) => {
+    const currentTarget = e.currentTarget.children[0]
+    if (currentTarget.src) {
+      currentTarget.src = item.hover
+    } else {
+      currentTarget.style.color = '#329d9b'
+    }
+  }
 
   return (
     <Container link='about' title='Sobre mí' size='5'>
@@ -24,11 +41,11 @@ export default function AboutContainer() {
         <h3 className='text-base text-green font-extrabold py-2'>Tecnologías</h3>
         <ul className='flex flex-wrap gap-4'>
           { techs.map((_, index) => (
-            <li key={index} className='hover:scale-105 flex items-center text-xs gap-2 border-strongGray border rounded-md p-[6px]'>
+            <li key={index} onMouseOver={e => handleMouseOver(_, e)} onMouseOut={e => handleMouseOut(_, e)} className='hover:scale-105 flex items-center text-xs gap-2 border-strongGray border rounded-md p-[6px]'>
               { _.src ?
-                <img src={_.hover} onMouseOver={e => (e.currentTarget.src = `${_.src}`)} onMouseOut={e => (e.currentTarget.src = `${_.hover}`)} className='w-[1rem] opacity-80' alt="icon" />
+                <img src={_.hover} className='w-[1rem] opacity-80' alt="icon" />
                 :
-                <_.icon className={`w-[1rem] h-[1rem] opacity-80 text-green`} onMouseOver={e => (e.currentTarget.style.color = `#${_.color}`)} onMouseOut={e => (e.currentTarget.style.color = '#329d9b')} />
+                <_.icon className={`w-[1rem] h-[1rem] opacity-80 text-green`} />
               }
               {_.name}
             </li>
