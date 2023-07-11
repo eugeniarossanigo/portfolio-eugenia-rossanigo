@@ -19,7 +19,7 @@ export const projects = [
     grupal: true
 },
   {
-    title: "CAFÉ",
+    title: "⚈ CAFÉ",
     date: "octubre 2022",
     description: "• Web y mobile app. • E-commerce de café y productos relacionados. • Equipo de 5 personas, encargada de detalles de diseño, funcionalidades front y backend.",
     gitFront: "https://github.com/eugeniarossanigo/dot-cafe-front",
