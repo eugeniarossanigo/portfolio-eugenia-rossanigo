@@ -5,7 +5,7 @@ import Container from './Container';
 
 export default function ProjectContainer() {
   return (
-    <Container link='projects' title='Proyectos' size='5'>
+    <Container link='projects' title='Proyectos'>
       {data.map((item, index) =>
         <CardContainer key={index}>
           <CardProject item={item}/>
