@@ -11,7 +11,7 @@ export default function Navbar({ handleMode, mode }) {
   const tagName = "<ER />"
 
   return (
-    <header id='home' className='w-[95%] sm:w-full h-[5vh] flex justify-between items-center shadow-[0_20px_40px_-20px_rgba(166,171,177,1)]'>
+    <header id='home' className='bg-insideBg sticky top-0 visible z-10 w-[95%] sm:w-full h-[5vh] flex justify-between items-center shadow-[0_20px_40px_-20px_rgba(166,171,177,1)]'>
       <h2 className='text-[14px] sm:text-xl'>{tagName}</h2>
       <section className='flex items-center gap-3 sm:gap-5'>
         <nav className='flex text-[11px] sm:text-sm lg:text-base gap-1 sm:gap-5'>
