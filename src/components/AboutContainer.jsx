@@ -32,8 +32,8 @@ export default function AboutContainer() {
           <p>Es mi objetivo seguir creciendo en este rubro para poder desarrollar todo mi potencial, habilidades y aportar mi conocimiento y entusiasmo a nuevos proyectos.</p>
         </section>
         <nav className='flex justify-start gap-5 pt-5 pb-2'>
-          <a className='w-[110px] bg-green hover:bg-[#2A4858] hover:scale-105 text-sm text-white font-bold text-center rounded-md pt-2' href='#'>CV Español</a>
-          <a className='w-[110px] bg-[#56C596] hover:bg-[#2A4858] hover:scale-105 text-sm text-white font-bold text-center rounded-md py-2' href='#'>CV Inglés</a>
+          <a className='w-[110px] bg-green hover:bg-[#2A4858] hover:scale-105 text-sm text-white font-bold text-center rounded-md pt-2' href='https://drive.google.com/file/d/1YJ24aPPk92pKglxmuh4uN_Min-nQz2cD/view?usp=drive_link' target='_blank' rel='noopener noreferrer'>CV Español</a>
+          <a className='w-[110px] bg-[#56C596] hover:bg-[#2A4858] hover:scale-105 text-sm text-white font-bold text-center rounded-md py-2' href='https://drive.google.com/file/d/1yTWc6o4nuYwBuLr3JZkVIqM29sPo0yQB/view?usp=drive_link' target='_blank' rel='noopener noreferrer'>CV Inglés</a>
         </nav>
       </ArticleContainer>
       <ArticleContainer>

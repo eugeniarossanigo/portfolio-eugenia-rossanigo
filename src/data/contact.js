@@ -1,6 +1,5 @@
 import { BiLogoLinkedin } from 'react-icons/bi'
-import { FaLocationDot} from 'react-icons/fa6'
-import { HiPhone } from 'react-icons/hi'
+import { FaLocationDot, FaWhatsapp} from 'react-icons/fa6'
 import { SiGithub } from 'react-icons/si'
 import { TbMailFilled } from 'react-icons/tb'
 
@@ -11,8 +10,8 @@ export const contact = [
     text: 'eugeniarossanigo@gmail.com'
   },
   {
-    href: 'tel:+5493415819753',
-    icon: HiPhone,
+    href: 'https://wa.me/543415819753',
+    icon: FaWhatsapp,
     text: '+54 341 5819753'
   },
   {
