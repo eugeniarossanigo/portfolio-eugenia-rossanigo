@@ -19,7 +19,7 @@ export default function CardProject({ item}) {
             <SiGithub className='text-lightGray w-[22px] h-[22px] hover:scale-105 hover:text-colorChanged' />
           </a>
         }
-        <a href='http://' target='_blank' rel='noopener noreferrer'>
+        <a href={item.link} target='_blank' rel='noopener noreferrer'>
           <HiLink className='bg-darkGray text-insideBg w-[24px] h-[24px] rounded-full p-1 hover:scale-105 hover:bg-colorChanged' />
         </a>
       </nav>
