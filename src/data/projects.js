@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "4 en línea (Conecta 4)",
+    date: "julio 2023",
+    description: "• Juego de estrategia",
+    gitFront: "https://github.com/eugeniarossanigo/connect-4",
+    link: "https://connect-4-phi.vercel.app/",
+    techs: "React.js",
+    grupal: false
+  },
+  {
     title: "⚈ CAFÉ",
     date: "octubre 2022",
     description: "• Web y mobile app. • E-commerce de café y productos relacionados. • Equipo de 5 personas, encargada de detalles de diseño, funcionalidades front y backend.",
@@ -26,6 +35,6 @@ export const projects = [
     gitFront: "https://github.com/eugeniarossanigo/petshop-mindy",
     link: "https://petshop-mindy-iota.vercel.app/",
     techs: "Javascript, Bootstrap",
-    grupal: true
-  },
+    grupal: false
+  }
 ]
