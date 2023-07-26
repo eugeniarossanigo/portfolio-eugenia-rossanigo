@@ -7,9 +7,17 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 a {
   text-decoration: none !important;
+}
+.box-card-container {
+  transform: scale(1) translateZ(0);
+  transition:
+      filter 200ms linear,
+      transform 200ms linear;
+}
+.box-card-container:hover {
+  transform: scale(1.05) translateZ(0);
 }
 
 @layer base {
@@ -21,13 +29,11 @@ a {
     --git-color: #f54d27;
   }
 }
-
 .theme-dark {
   --bg-outside: #000;
   --bg-inside: #191f1e;
   --color-changed: #fff;
 }
-
 .theme-light {
   --bg-outside: #e8eeee;
   --bg-inside: #f7fafa;

@@ -12,13 +12,12 @@ function App() {
   const [mode, setMode] = useState('dark')
 
   const handleMode = () => {
-    console.log(mode)
     setMode(mode === 'dark' ? 'light' : 'dark')
   }
 
   return (
       <div className={`w-full bg-insideBg font-montserrat flex justify-center text-baseColor ${mode === 'dark' ? 'theme-dark' : 'theme-light'}`}>
-        <div id='main-layout' className='max-w-7xl flex flex-col justify-center items-center py-2 sm:px-8'>
+        <div id='main-layout' className='max-w-7xl flex flex-col justify-center items-center py-2 px-3 lg:px-8'>
           <BrowserRouter>
             <Navbar handleMode={handleMode} mode={mode}/>
             <Routes>
