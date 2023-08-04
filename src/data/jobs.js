@@ -7,7 +7,7 @@ export const jobs = [
     "description": "• Desarrollo de páginas web. • Actualizaciones de funcionalidades. • Principales tecnologías utilizadas: Javascript, React.js y React Native."
   },
   {
-    "title": "Mentora Junior",
+    "title": "Mentora Jr",
     "datestart": "enero 2023",
     "datefinish": "la actualidad",
     "company": "Argentina Programa",
