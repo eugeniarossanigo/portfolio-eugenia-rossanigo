@@ -3,6 +3,16 @@ import { FaReact } from 'react-icons/fa'
 
 export const projects = [
   {
+    title: "Task Tracker",
+    date: "agosto 2023 (2.0)",
+    description: "• Tareas pendientes a gestionar.",
+    gitFront: "https://github.com/eugeniarossanigo/task-tracker",
+    link: "#",
+    image: "/projects/task-tracker.png",
+    techs: [FaReact, SiCss3],
+    grupal: false
+  },
+  {
     title: "4 en línea / Connect 4",
     date: "julio 2023",
     description: "• Juego de estrategia / Strategy game",
