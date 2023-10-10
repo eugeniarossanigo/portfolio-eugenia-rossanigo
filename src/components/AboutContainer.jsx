@@ -24,26 +24,26 @@ export default function AboutContainer() {
   }
 
   return (
-    <Container link='about' title='Sobre mí'>
+    <Container link='about' title='About me'>
       <ArticleContainer>
         <section className='flex flex-col gap-2'>
-          <p>Desarrolladora junior, desenvolviéndome en el ambiente IT desde 2014, actualmente capacitándome en nuevas tecnologías y trabajando en forma freelance especialmente en front end con Javascript y React.js, con conocimientos en back end.</p>
-          <p>Responsable, organizada, metódica y enfocada en en la resolución de problemas.</p>
-          <p>Es mi objetivo seguir creciendo en este rubro para poder desarrollar todo mi potencial, habilidades y aportar mi conocimiento y entusiasmo a nuevos proyectos.</p>
+          <p>Junior developer, working in the IT environment since 2014, currently training in new technologies and working freelance especially in front-end with Javascript and React.js, with knowledge in back-end and B2 level (upper intermediate) in English.</p>
+          <p>Responsible, organized, methodical and focused on problem solving.</p>
+          <p>It's my goal to continue growing in this field to develop my full potential, skills and bring my knowledge and enthusiasm to new projects.</p>
         </section>
         <nav className='flex justify-start gap-5 pt-5 pb-2'>
-          <a className='w-[110px] bg-green hover:bg-[#2A4858] hover:scale-105 text-sm text-white font-bold text-center rounded-md pt-2' href='https://drive.google.com/file/d/1YJ24aPPk92pKglxmuh4uN_Min-nQz2cD/view?usp=drive_link' target='_blank' rel='noopener noreferrer'>CV Español</a>
-          <a className='w-[110px] bg-[#56C596] hover:bg-[#2A4858] hover:scale-105 text-sm text-white font-bold text-center rounded-md py-2' href='https://drive.google.com/file/d/1yTWc6o4nuYwBuLr3JZkVIqM29sPo0yQB/view?usp=drive_link' target='_blank' rel='noopener noreferrer'>CV Inglés</a>
+          <a className='w-[110px] bg-green hover:bg-[#2A4858] hover:scale-105 text-sm text-white font-bold text-center rounded-md pt-2' href='https://drive.google.com/file/d/1HG7Rw4REC4d_TYH6jLAg_gSHA4GmRoce/view?usp=drive_link' target='_blank' rel='noopener noreferrer'>CV Spanish</a>
+          <a className='w-[110px] bg-[#56C596] hover:bg-[#2A4858] hover:scale-105 text-sm text-white font-bold text-center rounded-md py-2' href='https://drive.google.com/file/d/1O968EPMrf-UipQYxCn4URXeeR1zVkp4y/view?usp=drive_link' target='_blank' rel='noopener noreferrer'>CV English</a>
         </nav>
       </ArticleContainer>
       <ArticleContainer>
-        <h3 className='text-base text-green font-extrabold py-2'>Datos de contacto</h3>
+        <h3 className='text-base text-green font-extrabold py-2'>Contact data</h3>
         <ul className='flex flex-col gap-2'>
           { data.map((_, index) => <ContactLink key={index} item={_} />) }
         </ul>
       </ArticleContainer>
       <ArticleContainer>
-        <h3 className='text-base text-green font-extrabold py-3'>Tecnologías</h3>
+        <h3 className='text-base text-green font-extrabold py-3'>Technologies</h3>
         <ul className='flex flex-wrap gap-3'>
           { techs.map((_, index) => (
             <a href={`https://www.google.com/search?q=${_.name}`} target='_blank' rel='noopener noreferrer'>

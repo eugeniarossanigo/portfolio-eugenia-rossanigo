@@ -4,8 +4,8 @@ import { FaReact } from 'react-icons/fa'
 export const projects = [
   {
     title: "Task Tracker",
-    date: "agosto 2023 (2.0)",
-    description: "• Tareas pendientes a gestionar.",
+    date: "August 2023 (2.0)",
+    description: "• Pending tasks to be managed.",
     gitFront: "https://github.com/eugeniarossanigo/task-tracker",
     link: "#",
     image: "/projects/task-tracker.png",
@@ -13,9 +13,9 @@ export const projects = [
     grupal: false
   },
   {
-    title: "4 en línea / Connect 4",
-    date: "julio 2023",
-    description: "• Juego de estrategia / Strategy game",
+    title: "Connect 4",
+    date: "July 2023",
+    description: "• Strategy game",
     gitFront: "https://github.com/eugeniarossanigo/connect-4",
     link: "https://connect-4-phi.vercel.app/",
     image: "/projects/connect4-win.png",
@@ -24,8 +24,8 @@ export const projects = [
   },
   {
     title: "⚈ CAFÉ",
-    date: "octubre 2022",
-    description: "• Web y mobile app. • E-commerce de café y productos relacionados. • Equipo de 5 personas.",
+    date: "October 2022",
+    description: "• Web and mobile app. • E-commerce of coffee and related products. • 5 persons team.",
     gitFront: "https://github.com/eugeniarossanigo/dot-cafe-front",
     gitBack: "https://github.com/eugeniarossanigo/dot-cafe-back",
     link: "https://dot-cafe-front.vercel.app/",
@@ -35,8 +35,8 @@ export const projects = [
   },
   {
     title: "Mytinerary",
-    date: "septiembre 2022",
-    description: "• Web y mobile app sobre itinerarios de viajes. • Equipo de 2 personas.",
+    date: "September 2022",
+    description: "• Web and mobile app about trips itineraries. • 2 persons team.",
     gitFront: "https://github.com/eugeniarossanigo/mytinerary-front",
     gitBack: "https://github.com/eugeniarossanigo/mytinerary-back",
     link: "https://mytinerary-front-sand.vercel.app/",
@@ -46,8 +46,8 @@ export const projects = [
   },
   {
     title: "MINDY PetShop",
-    date: "agosto 2022",
-    description: "• E-commerce de artículos de veterinaria.",
+    date: "August 2022",
+    description: "• E-commerce of veterinary articles.",
     gitFront: "https://github.com/eugeniarossanigo/petshop-mindy",
     link: "https://petshop-mindy-iota.vercel.app/",
     image: "/projects/petshop.png",

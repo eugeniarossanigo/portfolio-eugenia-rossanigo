@@ -10,7 +10,7 @@ export default function CardProject({ item}) {
           <h3 className='text-base text-green font-extrabold'>{item.title}</h3>
         </header>
         <p className='min-h-[3rem] text-sm'>{item.description}</p>
-        <ul className='text-[10px] xs flex flex-wrap gap-2'>Hecho con: 
+        <ul className='text-[10px] xs flex flex-wrap gap-2'>Techs: 
           { item.techs.map((_, index) => (
             <li key={index} className='hover:scale-105 gap-2'>
                 <_ className='w-[1rem] h-[1rem] opacity-70 hover:opacity-100 text-[#297a79]' />

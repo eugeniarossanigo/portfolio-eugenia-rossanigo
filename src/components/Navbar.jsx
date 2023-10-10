@@ -1,10 +1,10 @@
 import MenuLink from './MenuLink'
 
 const linkItems = [
-  { href: 'home', name: 'Inicio' },
-  { href: 'projects', name: 'Proyectos' },
-  { href: 'experience', name: 'Experiencia' },
-  { href: 'about', name: 'Sobre mí' }
+  { href: 'home', name: 'Home' },
+  { href: 'projects', name: 'Projects' },
+  { href: 'experience', name: 'Experience' },
+  { href: 'about', name: 'About me' }
 ]
 
 export default function Navbar({ handleMode, mode }) {
