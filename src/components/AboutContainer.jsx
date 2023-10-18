@@ -28,12 +28,12 @@ export default function AboutContainer() {
       <ArticleContainer>
         <section className='flex flex-col gap-2'>
           <p>Junior developer, working in the IT environment since 2014, currently training in new technologies and working freelance especially in front-end with Javascript and React.js, with knowledge in back-end and B2 level (upper intermediate) in English.</p>
-          <p>Responsible, organized, methodical and focused on problem solving.</p>
+          <p>Methodical, organized and focused on problem solving.</p>
           <p>It's my goal to continue growing in this field to develop my full potential, skills and bring my knowledge and enthusiasm to new projects.</p>
         </section>
         <nav className='flex justify-start gap-5 pt-5 pb-2'>
-          <a className='w-[110px] bg-green hover:bg-[#2A4858] hover:scale-105 text-sm text-white font-bold text-center rounded-md pt-2' href='https://drive.google.com/file/d/1HG7Rw4REC4d_TYH6jLAg_gSHA4GmRoce/view?usp=drive_link' target='_blank' rel='noopener noreferrer'>CV Spanish</a>
-          <a className='w-[110px] bg-[#56C596] hover:bg-[#2A4858] hover:scale-105 text-sm text-white font-bold text-center rounded-md py-2' href='https://drive.google.com/file/d/1O968EPMrf-UipQYxCn4URXeeR1zVkp4y/view?usp=drive_link' target='_blank' rel='noopener noreferrer'>CV English</a>
+          <a className='w-[110px] bg-green hover:bg-[#2A4858] hover:scale-105 text-sm text-white font-bold text-center rounded-md pt-2' href='https://drive.google.com/file/d/1Md2jBk1HKFFfUTlcVwE1rWMkO6N-lI3u/view?usp=share_link' target='_blank' rel='noopener noreferrer'>CV Spanish</a>
+          <a className='w-[110px] bg-[#56C596] hover:bg-[#2A4858] hover:scale-105 text-sm text-white font-bold text-center rounded-md py-2' href='https://drive.google.com/file/d/1xhTrCa-zWkagPQitODYTmtR_-Sn8vdS_/view?usp=share_link' target='_blank' rel='noopener noreferrer'>CV English</a>
         </nav>
       </ArticleContainer>
       <ArticleContainer>
