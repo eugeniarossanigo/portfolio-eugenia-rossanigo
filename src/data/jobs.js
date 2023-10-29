@@ -1,15 +1,15 @@
 export const jobs = [
   {
     "title": "Front-End Developer Jr",
-    "datestart": "January 2023",
-    "datefinish": "Present",
+    "datestart": "June 2023",
+    "datefinish": "September 2023",
     "company": "Freelancer",
-    "description": "• Web development and functionality updates. • Main technologies: Javascript, React.js y React Native."
+    "description": "• Web functionality updates. • Main technologies: Javascript, React.js and React Native."
   },
   {
     "title": "Junior Mentor",
     "datestart": "January 2023",
-    "datefinish": "Present",
+    "datefinish": "September 2023",
     "company": "Argentina Programa",
     "description": "• Planning course activities and workshop teaching. • Planning course activities and workshop teaching. • Follow-up of students, ensuring their technical progress, encourage a collaborative and respectful learning environment."
   },

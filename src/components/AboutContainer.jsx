@@ -33,7 +33,7 @@ export default function AboutContainer() {
         </section>
         <nav className='flex justify-start gap-5 pt-5 pb-2'>
           <a className='w-[110px] bg-green hover:bg-[#2A4858] hover:scale-105 text-sm text-white font-bold text-center rounded-md pt-2' href='https://drive.google.com/file/d/1Md2jBk1HKFFfUTlcVwE1rWMkO6N-lI3u/view?usp=share_link' target='_blank' rel='noopener noreferrer'>CV Spanish</a>
-          <a className='w-[110px] bg-[#56C596] hover:bg-[#2A4858] hover:scale-105 text-sm text-white font-bold text-center rounded-md py-2' href='https://drive.google.com/file/d/1xhTrCa-zWkagPQitODYTmtR_-Sn8vdS_/view?usp=share_link' target='_blank' rel='noopener noreferrer'>CV English</a>
+          <a className='w-[110px] bg-[#56C596] hover:bg-[#2A4858] hover:scale-105 text-sm text-white font-bold text-center rounded-md py-2' href='https://drive.google.com/file/d/1EXs9U8b5ZqFNv4PcMLInZ83LS-eNMfEh/view?usp=drive_link' target='_blank' rel='noopener noreferrer'>CV English</a>
         </nav>
       </ArticleContainer>
       <ArticleContainer>
