@@ -1,8 +1,8 @@
 export default function Canvas({ title }) {
-  const size = 'w-5 sm:w-6 lg:w-7 h-5 sm:h-6 lg:h-7 rounded-full'
+  const size = 'w-4 sm:w-5 md:w-6 lg:w-7 h-4 sm:h-5 md:h-6 lg:h-7 rounded-full'
   
   return (
-    <section className='absolute top-3 left-4 flex flex-col'>
+    <section className='absolute top-3 left-1 md:left-2 lg:left-4 flex flex-col'>
       {
         title && <h2 className='text-2xl font-bold pb-8'>{title}</h2>
       }
