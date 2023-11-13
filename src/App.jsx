@@ -17,7 +17,7 @@ function App() {
 
   return (
       <div className={`w-full bg-insideBg font-montserrat flex justify-center text-baseColor ${mode === 'dark' ? 'theme-dark' : 'theme-light'}`}>
-        <div id='main-layout' className='max-w-7xl flex flex-col justify-center items-center py-2 px-3 lg:px-8'>
+        <div id='main-layout' className='max-w-7xl flex flex-col justify-center items-center py-2 px-1 sm:px-3 lg:px-8'>
           <BrowserRouter>
             <Navbar handleMode={handleMode} mode={mode}/>
             <Routes>
