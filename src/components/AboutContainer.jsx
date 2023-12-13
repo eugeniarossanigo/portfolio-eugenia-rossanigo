@@ -47,7 +47,7 @@ export default function AboutContainer() {
         <ul className='flex flex-wrap gap-3'>
           { techs.map((_, index) => (
             <a key={index} href={`https://www.google.com/search?q=${_.name}`} target='_blank' rel='noopener noreferrer'>
-              <li onMouseOver={e => handleMouseOver(_, e)} onMouseOut={e => handleMouseOut(_, e)} className='hover:scale-105 flex items-center text-xs gap-2 border-strongGray border rounded-md p-[6px] cursor-pointer'>
+              <li onMouseOver={e => handleMouseOver(_, e)} onMouseOut={e => handleMouseOut(_, e)} className='hover:scale-105 flex items-center text-sm gap-2 border-strongGray border rounded-md p-[6px] cursor-pointer'>
                 { _.src ?
                   <img src={_.hover} className='w-[1rem] opacity-80' alt="icon" />
                   :
