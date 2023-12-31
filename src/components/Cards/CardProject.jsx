@@ -13,7 +13,7 @@ export default function CardProject({ item}) {
         <ul className='text-[10px] xs flex flex-wrap gap-2'>Techs: 
           { item.techs.map((_, index) => (
             <li key={index} className='hover:scale-105 gap-2'>
-                <_ className='w-[1rem] h-[1rem] opacity-70 hover:opacity-100 text-[#297a79]' />
+                <_ className='w-[1rem] h-[1rem] opacity-80 hover:opacity-100 text-[#297a79]' />
             </li>
           ))
           }

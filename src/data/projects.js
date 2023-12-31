@@ -1,7 +1,18 @@
 import { SiTailwindcss, SiRedux, SiBootstrap, SiExpress, SiPostman, SiMongodb, SiNodedotjs, SiHtml5, SiCss3, SiJavascript } from 'react-icons/si'
+import { DiMysql } from 'react-icons/di'
 import { FaReact } from 'react-icons/fa'
 
 export const projects = [
+  {
+    title: "Crowd Guitar",
+    date: "December 2023 (1.0)",
+    description: "• Guitar Blog with details and prices (future ecommerce).",
+    gitFront: "https://github.com/eugeniarossanigo/itcrowd-challenge",
+    link: "https://itcrowd-challenge-eugeniarossanigo.vercel.app/",
+    image: "/projects/it-crowd.png",
+    techs: [FaReact, SiNodedotjs, SiExpress, DiMysql, SiTailwindcss, SiRedux, SiPostman],
+    grupal: false
+  },
   {
     title: "Task Tracker",
     date: "August 2023 (2.0)",
