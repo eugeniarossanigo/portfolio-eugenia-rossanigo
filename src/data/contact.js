@@ -10,9 +10,9 @@ export const contact = [
     text: 'eugeniarossanigo@gmail.com'
   },
   {
-    href: 'https://wa.me/543415819753',
+    href: 'https://wa.me/5493415819753',
     icon: FaWhatsapp,
-    text: '+54 341 5819753'
+    text: '+54 9 3415819753'
   },
   {
     href: 'https://www.linkedin.com/in/eugenia-rossanigo/',
